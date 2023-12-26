@@ -1,0 +1,32 @@
+.content {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.moviesBox {
+  width: 600px;
+  height: 150px;
+  box-shadow: 3px 1px 3px 0px black;
+  margin: 20px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.moviesBox h3 {
+  padding: 20px;
+}
+.imgMovie {
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+}
