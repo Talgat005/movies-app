@@ -1,5 +1,3 @@
-export const films = "Favorite Movies";
-
 export const movies = [
   {
     id: Math.random().toString(),

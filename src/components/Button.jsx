@@ -1,4 +1,4 @@
-function Button({ children, ...props }) {
+function Button({ ...props }) {
   return (
     <button
       style={{
@@ -6,9 +6,7 @@ function Button({ children, ...props }) {
         borderRadius: "10px",
       }}
       {...props}
-    >
-      {children}
-    </button>
+    ></button>
   );
 }
 

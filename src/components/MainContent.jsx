@@ -4,7 +4,7 @@ import "./Main.css";
 
 function Main() {
   return (
-    <main>
+    <main className="main">
       {movies.map((item) => (
         <div key={item.id} className="moviesBox">
           <img src={item.img} className="imgMovie" />
